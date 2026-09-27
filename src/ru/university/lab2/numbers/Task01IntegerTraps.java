@@ -2,7 +2,7 @@ package ru.university.lab2.numbers;
 
 public class Task01IntegerTraps {
     public void run() {
-        printRanges();
+        printRangess();
         overflowMaxValue();
         multiplyMaxValue();
         integerDivisionAndModulo();
@@ -10,7 +10,7 @@ public class Task01IntegerTraps {
         charArithmetic();
         demonstrateAddWithOverflowCheck();
     }
-    private void printRanges() {
+    private void printRangess() {
         System.out.println("byte: " + Byte.MIN_VALUE + " .. " + Byte.MAX_VALUE);
         System.out.println("short: " + Short.MIN_VALUE + " .. " + Short.MAX_VALUE);
         System.out.println("int: " + Integer.MIN_VALUE + " .. " + Integer.MAX_VALUE);

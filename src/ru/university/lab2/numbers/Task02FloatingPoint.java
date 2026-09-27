@@ -3,7 +3,7 @@ package ru.university.lab2.numbers;
 public class Task02FloatingPoint {
 
     public void run() {
-        printSumProblem();
+        printSumProblemm();
         sumTenTimes();
         compareWithEpsilonDemo();
         infinityAndNaN();
@@ -11,7 +11,7 @@ public class Task02FloatingPoint {
         floatVsDouble();
     }
 
-    private void printSumProblem() {
+    private void printSumProblemm() {
         System.out.println("0.1 + 0.2 = " + (0.1 + 0.2));
 
     }

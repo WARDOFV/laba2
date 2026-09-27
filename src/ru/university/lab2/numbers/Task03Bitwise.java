@@ -3,13 +3,13 @@ package ru.university.lab2.numbers;
 public class Task03Bitwise {
 
     public void run() {
-        showOperators();
+        showOperatorss();
         explainShiftDifference();
         parityPowerOfTwoBitCount();
         swapWithXor();
     }
 
-    private void showOperators() {
+    private void showOperatorss() {
         int a = 5;
         int b = 3;
         System.out.println("a & b = " + (a & b));
